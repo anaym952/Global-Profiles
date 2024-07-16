@@ -1,0 +1,14 @@
+.footer_container{
+    display: flex;
+    background-color: rgba(237, 217, 35, 0.756);
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer ul{
+    color: rgb(21, 83, 154);
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}

@@ -1,0 +1,30 @@
+.information_container{
+    background-color: aliceblue;
+    height: 329px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    cursor: default;
+}
+
+.image_container{
+    height: 329px;
+}
+
+.image_container img{
+    justify-content: right;
+    width: 50%;
+    margin-bottom: -315px;
+    margin-left: 180px;
+}
+
+.information{
+    color: rgb(21, 83, 154);
+    text-align: center;
+    width: 50%;
+}
+
+.information h2{
+    margin-bottom: 10px;
+    text-decoration: underline;
+}

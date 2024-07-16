@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #569512ba;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.logo-link{
+    color: rgb(21, 83, 154);
+    text-decoration: none;
+    align-items: center;
+}
+
+.logo-link ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-link ul li img{
+    margin-bottom: -10px;
+    width: 50px;
+}
+
+.navbar-menu {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-menu-list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.item-box {
+    padding: 5px;
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.nav-element{
+    font-size: 16px;
+    color: rgb(21, 83, 154);
+    text-decoration: none;
+}
+
+.current-section{
+    color: white;
+}
